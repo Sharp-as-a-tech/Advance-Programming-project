@@ -3,7 +3,9 @@ public class Main {
         System.out.println("Hello world!");
 Student s=new roomno();
 System.out.println(s.m1(80));
-
+//Association
+faculty uni=new faculty();
+uni.nameoftheuni();
 
     }
 }
