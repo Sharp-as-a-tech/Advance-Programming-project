@@ -1,8 +1,15 @@
 public class faculty {
+    private String name;
     //faculty and students has composition relationship
 public class students{
 
-    public void setName(){
+
+
+        public students() {
+            setName();
+        }
+
+        public void setName(){
         University a=new University();
         a.setName("Kandahar University");
         System.out.println(a.getName());
