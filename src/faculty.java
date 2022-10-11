@@ -1,4 +1,5 @@
 public class faculty {
+    //faculty and students has composition relationship
 public class students{
 
     public void setName(){
