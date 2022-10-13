@@ -12,3 +12,20 @@ public void run(int a,int b){
 }
 
 }
+class runner extends Runner{
+    //overriding
+    @Override
+    public void run() {
+        super.run();
+    }
+
+    @Override
+    public void run(int a, int b) {
+        super.run(a, b);
+    }
+
+    @Override
+    public void run(int A) {
+        super.run(A);
+    }
+}
