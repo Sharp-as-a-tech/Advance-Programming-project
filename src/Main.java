@@ -56,5 +56,11 @@ Inheretance in=new Inheretance();
       //  runner.run(2,3);
         runnerr runner1=new runnerr();
         runner1.run();
+        //static binding class calling
+        Bunny bunny=new Bunny();
+        bunny.eat();
+        //Dynamic binding
+        Cat cat=new Cat();
+        cat.eat();
     }
 }

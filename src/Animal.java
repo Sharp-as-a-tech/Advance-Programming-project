@@ -1,15 +1,21 @@
 public class Animal {
     //super class(parent)
-    public void animalSound(){
+     void animalSound(){
         System.out.println("The animal makes a sound");
     }
 }
 class Dog extends Animal{
     //subclass(child)
-    public void animalSound(){
+    void animalSound(){
         //callling the parent class method using super keyword
         super.animalSound();
         System.out.println("the dog says:bow wow (:");
     }
 
+}
+class Cat extends Animal{
+    //dynamic bing
+    void eat(){
+        System.out.println("Cats eat meat");
+    }
 }
