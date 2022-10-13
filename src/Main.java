@@ -35,5 +35,17 @@ uni.nameoftheuni();
         Character Char='a';
         char cha=Char;
         System.out.println(cha);
+
+
+//Object class
+//toString
+faculty faculty=new faculty();
+System.out.println(faculty);
+System.out.println(s.toString());
+//hashCode
+Inheretance in=new Inheretance();
+        System.out.println(in);
+        System.out.println(in.hashCode());
+
     }
 }
