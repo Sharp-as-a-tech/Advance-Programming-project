@@ -46,6 +46,8 @@ System.out.println(s.toString());
 Inheretance in=new Inheretance();
         System.out.println(in);
         System.out.println(in.hashCode());
-
+//super class
+        Animal myDog=new Dog();
+        myDog.animalSound();
     }
 }
