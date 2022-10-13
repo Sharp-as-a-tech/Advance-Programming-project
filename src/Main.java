@@ -50,9 +50,11 @@ Inheretance in=new Inheretance();
         Animal myDog=new Dog();
         myDog.animalSound();
 //overloading methods calling
-        Runner runner=new Runner();
-        runner.run();
-        runner.run(12);
-        runner.run(2,3);
+     //   Runner runner=new Runner();
+      //  runner.run();
+     //   runner.run(12);
+      //  runner.run(2,3);
+        runnerr runner1=new runnerr();
+        runner1.run();
     }
 }

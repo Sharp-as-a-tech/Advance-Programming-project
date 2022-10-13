@@ -12,7 +12,7 @@ public void run(int a,int b){
 }
 
 }
-class runner extends Runner{
+class runnerr extends Runner{
     //overriding
     @Override
     public void run() {
