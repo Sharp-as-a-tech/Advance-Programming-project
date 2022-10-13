@@ -49,5 +49,10 @@ Inheretance in=new Inheretance();
 //super class
         Animal myDog=new Dog();
         myDog.animalSound();
+//overloading methods calling
+        Runner runner=new Runner();
+        runner.run();
+        runner.run(12);
+        runner.run(2,3);
     }
 }
