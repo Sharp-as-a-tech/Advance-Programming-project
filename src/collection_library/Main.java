@@ -107,7 +107,16 @@ list3.set(5,'G');
 
         dq1.pop();
         System.out.println(dq1);
-
+//set
+        Set<Integer> s1=new HashSet<Integer>();
+        s1.add(12);
+        s1.add(43);
+        s1.add(32);
+        s1.add(1200);
+        s1.add(12576);
+        s1.add(98);
+        s1.clear();
+        System.out.println(s1.isEmpty());
 
     }
 }
