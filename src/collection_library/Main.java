@@ -16,15 +16,30 @@ public class Main {
         list1.remove(2);
         list1.set(2,"Namira");
         //traversing through Iterator
-        Iterator itr= list1.listIterator();
-        while (itr.hasNext()){
-            System.out.println(itr.next());
-        }
+//        Iterator itr= list1.listIterator();
+//        while (itr.hasNext()){
+//            System.out.println(itr.next());
+//        }
 
 
 
         List<Integer> list2=new LinkedList<Integer>();
         list2.add(12);
+        list2.add(78);
+        list2.add(231);
+        list2.add(120);
+        list2.add(19);
+        list2.add(107);
+//        list2.clear();
+        list2.remove(1);
+        list2.set(1,3000);
+        System.out.println(list2.get(1));
+        System.out.println("LinkedList");
+        Iterator itr= list2.listIterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
         List<Character> list3=new Vector<Character>();
+
     }
 }
