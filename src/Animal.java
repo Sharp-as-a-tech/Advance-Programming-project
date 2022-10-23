@@ -1,5 +1,9 @@
 public class Animal {
     //super class(parent)
+    public Animal(){
+
+        System.out.println("Hi this is the constructor");
+    }
      void animalSound(){
         System.out.println("The animal makes a sound");
     }

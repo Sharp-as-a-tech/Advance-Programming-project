@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class Main {
@@ -62,5 +64,21 @@ Inheretance in=new Inheretance();
         //Dynamic binding
         Cat cat=new Cat();
         cat.eat();
+        //BigInteger BigDecimal
+        BigInteger h= BigInteger.valueOf(13);
+        BigInteger h2 = BigInteger.valueOf(140);
+        BigInteger sum=h.add(h2);
+        System.out.println(sum);
+
+        //BigDecimal
+        BigDecimal g=new BigDecimal("2");
+        BigDecimal amount=new BigDecimal("12.5");
+       Object obj= amount.compareTo(g);
+      BigDecimal finale= amount.divide(g);
+        System.out.println(obj);
+        System.out.println(finale);
+        //constructing a class using contractor
+        new Animal();
+
     }
 }
