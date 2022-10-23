@@ -94,7 +94,19 @@ list3.set(5,'G');
         System.out.println(q1.poll());
         System.out.println(q1.peek());
         System.out.println(q1.peek());
+//Dequeue
+        Deque<String> dq1=new ArrayDeque<String>();
 
+        dq1.add("asd");
+        dq1.add("bcd");
+        dq1.add("efg");
+        dq1.add("hij");
+        dq1.add("klm");
+        System.out.println(dq1);
+        System.out.println("First Element: " + dq1.peek());
+
+        dq1.pop();
+        System.out.println(dq1);
 
 
     }
