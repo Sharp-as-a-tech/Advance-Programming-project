@@ -22,7 +22,7 @@ public class Main {
 //        }
 
 
-
+//LinkedList
         List<Integer> list2=new LinkedList<Integer>();
         list2.add(12);
         list2.add(78);
@@ -39,6 +39,7 @@ public class Main {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
+        //Vector
         List<Character> list3=new Vector<Character>();
 
         list3.add('A');
@@ -65,6 +66,20 @@ list3.set(5,'G');
 
         System.out.println(list3.isEmpty());
 
+//Stack
+        Stack<Object> stack=new Stack<Object>();
+        stack.push("Afghanistan");
+        stack.push("Tajikistan");
+        stack.push("Pakistan");
+        stack.push("Auzbikistan");
+        stack.push("Iran");
+        stack.push("UEA");
+        System.out.println(stack);
+        stack.pop();
+        System.out.println(stack);
+        stack.clear();
+        System.out.println("stack after the clear method!");
+        System.out.println(stack);
 
 
     }
