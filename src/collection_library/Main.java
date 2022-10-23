@@ -71,15 +71,30 @@ list3.set(5,'G');
         stack.push("Afghanistan");
         stack.push("Tajikistan");
         stack.push("Pakistan");
-        stack.push("Auzbikistan");
+        stack.push(12);
         stack.push("Iran");
-        stack.push("UEA");
+        stack.push('C');
         System.out.println(stack);
         stack.pop();
         System.out.println(stack);
         stack.clear();
         System.out.println("stack after the clear method!");
         System.out.println(stack);
+
+        Queue<Object> q1=new PriorityQueue<Object>();
+        q1.add("dfghk");
+        q1.add("dfgh");
+        q1.add("Kandahar");
+        q1.add("ASia");
+        q1.add("sdfghj");
+        q1.add("sdfgh");
+        System.out.println(q1);
+        System.out.println();
+        q1.remove();
+        System.out.println(q1.poll());
+        System.out.println(q1.peek());
+        System.out.println(q1.peek());
+
 
 
     }
