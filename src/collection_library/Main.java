@@ -117,6 +117,21 @@ list3.set(5,'G');
         s1.add(98);
         s1.clear();
         System.out.println(s1.isEmpty());
+        //LinkHashSet
+        LinkedHashSet<String> set=new LinkedHashSet<String>();
+        set.add("Afghanistan ");
+        set.add("is ");
+        set.add("the  ");
+        set.add("heart ");
+        set.add("of  ");
+        set.add("Asia");
+        set.add("! ");
+        System.out.println(set);
+        set.clear();
+        System.out.println(set);
+
+
+
 
     }
 }
