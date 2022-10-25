@@ -129,6 +129,15 @@ list3.set(5,'G');
         System.out.println(set);
         set.clear();
         System.out.println(set);
+        //TreeSet is stored in ascending order
+        TreeSet<String> treeSet=new TreeSet<String>();
+        treeSet.add("Sara");
+        treeSet.add("Zara");
+        treeSet.add("Para");
+        treeSet.add("Aera");
+
+        System.out.println(treeSet);
+
 
 
 
